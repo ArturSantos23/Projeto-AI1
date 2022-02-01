@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Projeto</title>
+</head>
+
+<body onload="startTime()">
+    <!-- OVERLAY -->
+    <div class="overlay first"></div>
+    <div class="overlay second"></div>
+    <div class="overlay third"></div>
+
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav_logo">PORTFOLIO</a>
+            </div>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="about.html" class="nav_link">Quem Somos</a></li>
+                    <li class="nav_item"><a href="contacto.html" class="nav_link">Contacte-nos</a></li>
+                    <div class="relogio" id="relogio"></div>
+                </ul>
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+        </nav>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer_title">Artur Santos</p>
+            <div class="footer_social">
+                <a href="https://www.facebook.com/profile.php?id=100014925133985" class="footer_icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/artur_santos_23/" class="footer_icon">
+                    <ion-icon name="logo-instagram"></ion-icon></i>
+                </a>
+                <a href="https://twitter.com/Artur_Santos23" class="footer_icon">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </div>
+            <p class="footer_copy">&#169; Artur Santos. All rigths reserved</p>
+        </footer>
+        <footer class="footer">
+            <p class="footer_title">Alexandre Moreira</p>
+            <div class="footer_social">
+                <a href="https://www.facebook.com/profile.php?id=100006307127886" class="footer_icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/alex.moreira0202/" class="footer_icon">
+                    <ion-icon name="logo-instagram"></ion-icon></i>
+                </a>
+                <a href="https://twitter.com/MoreiraValejo" class="footer_icon">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </div>
+            <p class="footer_copy">&#169; Alexandre Moreira. All rigths reserved</p>
+        </footer>
+        <footer class="footer">
+            <p class="footer_title">Luís Anselmo</p>
+            <div class="footer_social">
+                <a href="https://www.facebook.com/anselmoheh/" class="footer_icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/luis_anselmoheh.14/" class="footer_icon">
+                    <ion-icon name="logo-instagram"></ion-icon></i>
+                </a>
+                <a href="https://twitter.com/anselmoheh" class="footer_icon">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </div>
+            <p class="footer_copy">&#169; Luís Anselmo. All rigths reserved</p>
+        </footer>
+    </header>
+
+    <!-- MAIN -->
+    <main class="l-main bd-grid">
+        <div class="home">
+            <div class="home_information">
+                <span class="home_pressent anime-text">Olá, o meu nome é</span>
+                <h1 class="home_title anime-text">Artur</h1>
+                <span class="home_skill anime-text">Web Developer</span>
+                <div>
+                    <a href="contacto.html" class="home_button anime-text">Contactar</a>
+                </div>
+            </div>
+            <div class="home_information">
+                <span class="home_pressent anime-text">Olá, o meu nome é</span>
+                <h1 class="home_title anime-text">Alexandre</h1>
+                <span class="home_skill anime-text">Web Developer</span>
+                <div>
+                    <a href="contacto.html" class="home_button anime-text">Contactar</a>
+                </div>
+            </div>
+            <div class="home_information">
+                <span class="home_pressent anime-text">Olá, o meu nome é</span>
+                <h1 class="home_title anime-text">Luís</h1>
+                <span class="home_skill anime-text">Web Developer</span>
+                <div>
+                    <a href="contacto.html" class="home_button anime-text">Contactar</a>
+                </div>
+            </div>
+            <div class="home_img">
+                <div class="mySlides fade">
+                    <img src="assets/imagens/work1.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="assets/imagens/work2.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="assets/imagens/work3.jpg">
+                </div>
+            </div>
+            <div class="home_social">
+                <a href="https://moodle.estgv.ipv.pt/course/view.php?id=4280" class="footer_icon">
+                    <ion-icon name="school" class="home_social-icon"></ion-icon>
+                </a>
+                <a href="https://github.com/ArturSantos23/Projeto-AI1" class="footer_icon">
+                    <ion-icon name="logo-github" class="home_social-icon"></ion-icon>
+                </a>
+                <a href="https://github.com/ArturSantos23/Projeto-AI1/blob/main/Enunciado_Projecto_Pratico.pdf"
+                    class="footer_icon">
+                    <ion-icon name="help-circle-outline" class="home_social-icon"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- GSAP (Animações)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js" crossorigin></script>
+
+    <!-- MAIN (TEM DE APARECER DEPOIS DO GSAP)-->
+    <script src="assets/js/main.js" async></script>
+    <script type="text/babel" src="assets/js/react.jsx" crossorigin></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
